@@ -59,7 +59,7 @@ Lastly, I have created a heat wave to assess for correlations in my data set. Th
 
 Again, I would implement the linear regression because there was a moderate R^2 of .56 for both the training and testing data. This model was not as overfit, as opposed to the regression tree model.
 
-I also believe further analyses should be done to see if changes in marketing, such as marketing products as health-consious or low fat, would make an impact in sales depending on geographical region. Therefore, further exploration of what different variables interact would be an interesting pursuit in the future as there may be many different variables that contribute to the sales revenue in different ways. 
+I also believe further analyses should be done to see if changes in marketing, such as marketing products as health-consious or low fat, would make an impact in sales depending on geographical region. Therefore, further exploration on how different variables interact would be an interesting pursuit in the future as there may be many different variables that contribute to the sales revenue in different ways. 
 
 ## Limitations & Next Steps
 
