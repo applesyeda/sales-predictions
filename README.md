@@ -1,7 +1,7 @@
-# Title that recommends an action
-## Subtitle describing the analysis 
+# Predicting Grocery Store Sales 
+## Considering different models and variables 
 
-**Author**: 
+**Author**: Meryum Syeda
 
 ### Business problem:
 
