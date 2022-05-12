@@ -5,7 +5,7 @@
 
 ### Business problem:
 
-Here is where you state the business problem you were trying to solve
+Can I create a model that could predict grocery stores sales? 
 
 
 ### Data:
