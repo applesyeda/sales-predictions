@@ -14,9 +14,9 @@ My goal is to access a variety of variables, from fat content to outlet size, on
 
 ## Methods
 
-I consider variables such as an item's fat content and see if that could predict sales revenue because there may be some people are are more inclined to buy foods if it is labeled as being low in fat. If I'm able to see a trend in this, I can work with other manufacturing companies as well as other grocery stores about how to market items as healthy as their consumers may be attracted to health-consious advertising.  
+I consider variables such as an item's fat content and see if that could predict sales revenue because there may be some people who are more inclined to buy foods if it is labeled as being low in fat. If I'm able to see a trend in this, I can work with other manufacturing companies as well as other grocery stores about how to market items as healthy as their consumers may be attracted to health-consious advertising.  
 
-I also explore variables considering item size and weight because people may also be more likely to buy foods if it's easier to access or carry. Smaller items are generally more compact and easier to travel with, meaning that a packet of 10 protein bars may contribute to a greater number in sales compared to buying it in bulk. If a trend is found between item size and sales, this may also change the way products are manufactured and sold in the future. 
+I also explore variables, such as considering item size and weight because people may also be more likely to buy foods if it's easier to access or carry. Smaller items are generally more compact and easier to travel with, meaning that a packet of 10 protein bars may contribute to a greater number in sales compared to buying it in a 50-pack bulk. If a trend is found between item size and sales, this may also change the way products are manufactured and sold in the future. 
 
 As I prepare to analyze the data, I make sure there are no missing variables as well as duplicate columns. I also make sure all variables are organized and the values of those variables are correct. 
 
@@ -26,7 +26,7 @@ I created a machine learning model to see if there were variables in my dataset 
 
 However, the square-root of the average errors in the model did show that there was high variance, suggesting there could be error in those analyses, maybe even more so if new data is introduced. 
 
-I also created a Decision Tree Regression. That also showed me that my model was overfit as my R^2 was a 1 for my training data and much smallar, .15, for my testing data. Also, the RMSE on the training data was much higher on the testing data.  
+I also created a decision tree regression. This showed me that my model was overfit as my R^2 was 1 for my training data and much smallar, .15, for my testing data. Also, the RMSE on the training data was much higher on the testing data.  
 
 I would ultimately implement the linear regression, rather than the deciscion tree regression, because there was a better R^2 value of .56 for both of my training and testing data. This meant that it would make better predictions. 
 
@@ -35,7 +35,7 @@ I would ultimately implement the linear regression, rather than the deciscion tr
 #### Reflection: Sales Predictions and Low-fat Items 
 
 
-I first created the below graph because I would like to see if there's a difference in sales between low fat items and regular items. Just by eye-balling it, the medians look about the same. There seems to be a slightly greater range (including outliers) with low fat items compared to regular. I think asssessing for this is important because if there were changes, I could investigate further if those were significant, and that may change the way retailers advertise their products. For instance, if it's found that customers tend to choose the lower fat option, retailers could advertise their lower caloried or health-consious items more to further appeal to those people and drive sales.
+I also created the below graph because I would like to see if there's a difference in sales between low fat items and regular items. Just by eye-balling it, the medians look about the same. There seems to be a slightly greater range (including outliers) with low fat items compared to regular. I think asssessing for this is important because if there were changes, I could investigate further if those were significant, and that may change the way retailers advertise their products. For instance, if it's found that customers tend to choose the lower fat option, retailers could advertise their lower caloried or health-consious items more to further appeal to those people and drive sales.
 
 ![download](https://user-images.githubusercontent.com/101068535/167980577-6563db81-0aba-41e2-9eba-1000b0c0fe27.png)
 
